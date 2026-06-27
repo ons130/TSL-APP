@@ -1,16 +1,25 @@
-# tsl_app
+# TSL-APP
 
-A new Flutter project.
+Tunisian Sign Language Translation App
+
+## Description
+This Flutter application translates Tunisian Sign Language using a deep learning model and provides real-time interaction.
+
+## Features
+- Sign language recognition
+- Video-based input
+- Speech output
+- Cross-platform Flutter app (Android / iOS / Web)
+
+## Project Structure
+- lib/ → Flutter source code
+- assets/ → Images and resources
+- android/, ios/ → Native platforms
 
 ## Getting Started
+This project is built with Flutter.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To run the project:
+```bash
+flutter pub get
+flutter run
